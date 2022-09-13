@@ -1,1 +1,60 @@
-a
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google advanced</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    form[action="index.html"] {
+      display: inline;
+      position: relative;
+      top: 5px;
+      left: 1200px;
+    }
+
+    form[action="image.html"] {
+      display: inline;
+      position: relative;
+      top: 5px;
+      left: 970px;
+    }
+  </style>
+  <body>
+    <div>
+      <img
+        class="sm_logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+      />
+      <form action="index.html">
+        <input class="rel_page" type="submit" value="Search" />
+      </form>
+      <form action="image.html">
+        <input class="rel_page" type="submit" value="Image" />
+      </form>
+    </div>
+    <h2>Advanced Search:</h2>
+    <h3>Find pages with...</h3>
+   <form  action="https://www.google.com/search">
+    <table class="fields">
+      
+      <tr>
+        <td>all these words:</td>
+        <td><input class="fbox" type="text" name="as_q" /></td>
+      </tr>
+      <tr>
+        <td>this exact word or phrase:</td>
+        <td><input class="fbox" type="text" name="as_epq"/></td>
+      </tr>
+      <tr>
+        <td>any of these words:</td>
+        <td><input class="fbox" type="text" name="as_oq"/></td>
+      </tr>
+      <tr>
+        <td>none of these words:</td>
+        <td><input class="fbox" type="text" name="as_eq"/></td>
+      </tr>
+    </table>
+        <input id="ad" type="submit" value="Advanced Search">     
+    </form>
+  </body>
+</html>

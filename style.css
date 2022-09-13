@@ -1,0 +1,93 @@
+html {
+    margin: 0;
+  }
+  form{
+    display:inline;
+  }
+  .logo {
+    padding: 150px 760px 0px 760px;
+    width: 400px;
+  }
+  
+  .ct {
+    padding: 10px 100px 10px 710px;
+  }
+  #se {
+    width: 500px;
+    height: 30px;
+    border: 1px solid;
+    font-size:20px;
+    font-family:'Consolas',sans-serif;
+    border-radius: 30px;
+    
+  }
+  #gg{
+    position:relative;
+    top:10px;
+    left: 755px;
+    width: 200px;
+    height:40px;
+    font-size: 20px;
+  }
+  .rel_page{
+    height: 40px;
+    width: 110px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid ;
+    border-radius: 10px;
+  }
+  .sm_logo{
+    float:left;
+    width: 200px;
+    margin: 5px ;
+    
+  }
+  h2{
+    margin-top:100px;
+    padding-bottom: 40px;
+    font-family: 'Consolas',sans-serif;
+    padding-left: 30px;
+    font-size: 30px;
+    color: red;
+    border-bottom:1px solid black ;
+  }
+  .fields{
+    padding: 30px 0 0 40px;
+    font-family: 'Consolas',sans-serif;
+    font-size: 20px;
+  
+  }
+  h3{
+    margin: 50px 0 0 30px;
+    font-family: 'Consolas',sans-serif;
+    font-size: 25px;
+  }
+  td{
+    height:50px;
+  }
+  .fbox{
+    font-family: 'Consolas',sans-serif;
+    font-size: 20px;
+    width: 800px;
+    display: list-item;
+  }
+  #ad{
+    width: 200px;
+    height: 40px;
+    background-color: #008ae6;
+    color: white;
+    font-family: 'Consolas',sans-serif;
+    font-size: 20px;
+    position:relative;
+    left: 1000px;
+    top: 10px;
+  }
+  #lucky{
+    position:relative;
+    left:765px;
+    top:10px;
+    width: 200px;
+    height:40px;
+    font-size: 20px;
+  }

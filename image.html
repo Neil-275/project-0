@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google image</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    form[action="index.html"] {
+      display: inline;
+      position: relative;
+      top: 5px;
+      left: 1400px;
+    }
+
+    form[action="advanced.html"] {
+      display: inline;
+      position: relative;
+      top: 5px;
+      left: 1170px;
+    }
+    /* html{
+      background: url('https://www.parmetech.com/wp-content/uploads/2017/09/kasscon-cleaning-textured-background-repeat-2.jpg');
+    } */
+  </style>
+  <body>
+    <div>
+      <form action="index.html">
+        <input class="rel_page" type="submit" value="Search" />
+      </form>
+      <form action="advanced.html">
+        <input class="rel_page" type="submit" value="Advanced" />
+      </form>
+    </div>
+    <img
+      class="logo"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/640px-Google_Images_2015_logo.svg.png"
+    />
+    <form class="ct" action="https://www.google.com/images">
+      <input id="se" type="text" name="q" /> <br />
+    </form>
+  </body>
+</html>
